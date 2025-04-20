@@ -6,12 +6,11 @@ body {
 
 header {
     background-color: #0f6cbf;
-    
 }
 
 .main {
     max-width: 2000px;
-    min-height: 70px;
+    min-height: 60px;
     margin: auto;
 }
 
@@ -34,6 +33,13 @@ header {
 .main .home a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     padding: 5px 15px;
+}
+
+#login {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
 }
