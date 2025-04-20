@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #0f6cbf;
+    
+}
+
+.main {
+    max-width: 2000px;
+    min-height: 70px;
+    margin: auto;
+}
+
+.main ul li {
+    display: inline-block;
+}
+
+.main ul{
+    float: right;
+}
+
+.main .home {
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+    padding: 0 10px;
+}
+
+.main .home a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 5px 15px;
+}
