@@ -5,13 +5,18 @@ body {
 }
 
 header {
-    background-color: #0f6cbf;
+    background-color: #0147c1 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
 }
 
 .main {
     max-width: 2000px;
     min-height: 60px;
     margin: auto;
+    position: sticky;
 }
 
 .main ul li {
@@ -44,6 +49,10 @@ header {
     font-size: 15px;
 }
 
+#login:hover {
+    text-decoration: underline;
+}
+
 .container1 {
     justify-content: center;
     align-items: center;
@@ -54,20 +63,23 @@ header {
     height: auto;
     max-width: 1000px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-bottom: 200px;
 }
 
 img {
     height: 60vh;
     min-width: none;
     width: 750px;
+    margin-top: 10px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 h1 {
-    font-size: 30PX;
+    font-size: 25px;
     font-weight: 900;
     margin: 0;
 }
